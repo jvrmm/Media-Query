@@ -1,0 +1,12 @@
+h1 {
+  font-size: 60px;
+}
+
+/* The text should only be red under certainly conditions. */
+/* For Example: When the screen changes to 900px or below. */
+@media (max-width: 900px) {
+  h1{
+    color: red;
+    font-size: 50px;
+  }
+}
